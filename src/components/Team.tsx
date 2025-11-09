@@ -3,73 +3,69 @@ import { Linkedin, Github, Mail } from "lucide-react";
 export default function Team() {
   const teamMembers = [
     {
-      name: "Priya Sharma",
+      name: "Saad Jangda",
       role: "Lead",
       image:
-        "https://images.pexels.com/photos/3765114/pexels-photo-3765114.jpeg?auto=compress&cs=tinysrgb&w=300",
-      linkedin: "#",
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/saad_jangda.JPG",
+      linkedin: "https://www.linkedin.com/in/saad-jangda/",
       github: "#",
       email: "#",
     },
     {
-      name: "Arjun Patel",
+      name: "Hani Zehra",
       role: "Co-Lead",
       image:
-        "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300",
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/hani_zehra.JPG",
+      linkedin: "https://www.linkedin.com/in/hani-zehra14/",
+      github: "#",
+      email: "#",
+    },
+    {
+      name: "Muhammad Sheryar",
+      role: "Lead Operations",
+      image:
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/muhammad_sheryar_4v8Iiob.jpg",
       linkedin: "#",
       github: "#",
       email: "#",
     },
     {
-      name: "Ananya Reddy",
-      role: "Technical Lead",
+      name: "Sualeha Junaid",
+      role: "Co-Lead Decor",
       image:
-        "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300",
+        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/sualeha_junaid.jpg",
       linkedin: "#",
       github: "#",
       email: "#",
     },
     {
-      name: "Rohan Kumar",
-      role: "Events Head",
-      image:
-        "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=300",
+      name: "Sidra Tanvir",
+      role: "Lead Decor",
+      image: "/profile-icon.png",
       linkedin: "#",
       github: "#",
       email: "#",
     },
     {
-      name: "Sneha Iyer",
-      role: "Design Lead",
-      image:
-        "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300",
+      name: "Umer Noor",
+      role: "AI Co-Lead",
+      image: "/profile-icon.png",
       linkedin: "#",
       github: "#",
       email: "#",
     },
     {
-      name: "Vikram Singh",
-      role: "Community Manager",
-      image:
-        "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300",
+      name: "Somil Raj",
+      role: "Co-Lead Marketing",
+      image: "/profile-icon.png",
       linkedin: "#",
       github: "#",
       email: "#",
     },
     {
-      name: "Meera Nair",
-      role: "Marketing Head",
-      image:
-        "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=300",
-      linkedin: "#",
-      github: "#",
-      email: "#",
-    },
-    {
-      name: "Aditya Gupta",
-      role: "Content Lead",
-      image:
-        "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=300",
+      name: "Naba Yousuf",
+      role: "Co-Lead Web",
+      image: "/profile-icon.png",
       linkedin: "#",
       github: "#",
       email: "#",

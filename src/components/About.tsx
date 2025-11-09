@@ -9,8 +9,8 @@ export default function About() {
             About Us
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We are a community of tech enthusiasts at Dayananda Sagar
-            University, powered by Google Developers
+            We are a community of tech enthusiasts at Dha Suffa University,
+            powered by <br /> Google Developers Group On Campus.
           </p>
         </div>
 
