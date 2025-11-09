@@ -60,7 +60,7 @@ export default function EventDetails() {
               alt={event.title}
               className="w-full h-full object-cover"
             />
-            <button
+            {/* <button
               onClick={() => (window.location.hash = "")}
               className="absolute left-4 top-4 bg-white/95 backdrop-blur-sm px-4 py-2 rounded-lg shadow-md text-gray-700 hover:bg-white transition-all flex items-center font-medium group"
             >
@@ -69,7 +69,7 @@ export default function EventDetails() {
                 className="mr-2 group-hover:-translate-x-1 transition-transform"
               />
               Back
-            </button>
+            </button> */}
             <div
               className={`absolute top-4 right-4 px-4 py-2 rounded-full text-sm font-semibold shadow-lg ${
                 event.status === "Upcoming"
