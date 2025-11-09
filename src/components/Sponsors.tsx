@@ -2,35 +2,33 @@ export default function Sponsors() {
   const sponsors = [
     {
       name: "Google",
-      color: "from-blue-500 to-red-500",
+      // color: "from-blue-500 to-red-500",
+      img: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/WhatsApp%20Image%202025-04-14%20at%207.18.04%20PM_INa6hEj.jpeg",
     },
     {
-      name: "Microsoft",
-      color: "from-blue-600 to-blue-400",
+      name: "Zapdas",
+      // color: "from-blue-600 to-blue-400",
+      img: "https://res.cloudinary.com/dgjvt9oa9/image/upload/v1719180440/pstzv3s9mgmn7aaxeis9.svg",
     },
     {
-      name: "Amazon Web Services",
-      color: "from-orange-500 to-yellow-400",
+      name: "Vivid Labs",
+      // color: "from-orange-500 to-yellow-400",
+      img: "https://res.cloudinary.com/dgjvt9oa9/image/upload/v1719180430/t0ixpr3x6is43dstwzee.svg",
     },
     {
-      name: "GitHub",
-      color: "from-gray-800 to-gray-600",
+      name: "DataCamp",
+      // color: "from-blue-500 to-cyan-400",
+      img: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/download_AihCh5V.png",
     },
     {
-      name: "JetBrains",
-      color: "from-purple-600 to-pink-500",
+      name: "",
+      // color: "from-blue-600 to-blue-500",
+      img: "https://res.cloudinary.com/dgjvt9oa9/image/upload/v1719180451/zwbcmlsmgx64nennvdsw.svg",
     },
     {
-      name: "DigitalOcean",
-      color: "from-blue-500 to-cyan-400",
-    },
-    {
-      name: "Meta",
-      color: "from-blue-600 to-blue-500",
-    },
-    {
-      name: "Netflix",
-      color: "from-red-600 to-red-500",
+      name: "",
+      // color: "from-red-600 to-red-500",
+      img: "https://res.cloudinary.com/dgjvt9oa9/image/upload/v1719180514/yn6rrn0cjjynqifzwshr.svg",
     },
   ];
 
@@ -66,17 +64,17 @@ export default function Sponsors() {
               {duplicatedSponsors.map((sponsor, index) => (
                 <div
                   key={index}
-                  className="flex-shrink-0 mx-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border border-gray-100"
-                  style={{ width: "200px" }}
+                  className="flex-shrink-0 mx-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 border-2 border-white"
+                  style={{ width: "180px" }}
                 >
                   <div
-                    className={`aspect-[3/2] bg-gradient-to-br ${sponsor.color} rounded-lg flex items-center justify-center p-1`}
+                    className={`aspect-[3/2] bg-gradient-to-br ${sponsor} rounded-lg flex items-center justify-center overflow-hidden`}
                   >
-                    <div className="bg-white rounded-md w-full h-full flex items-center justify-center px-4">
-                      <span className="text-gray-800 text-lg font-semibold text-center">
-                        {sponsor.name}
-                      </span>
-                    </div>
+                    <img
+                      src={sponsor.img}
+                      alt={sponsor.name}
+                      className="w-full h-full object-fit"
+                    />
                   </div>
                 </div>
               ))}
@@ -93,9 +91,11 @@ export default function Sponsors() {
             <p className="text-blue-100 mb-6">
               Partner with us to support the next generation of developers
             </p>
-            <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow">
-              Partner With Us
-            </button>
+            <a href="https://linktr.ee/GDSC.DSU">
+              <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow">
+                Partner With Us
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -92,11 +92,11 @@ export default function Footer() {
                   Sponsors
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-white transition-colors">
                   Join Us
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -112,7 +112,7 @@ export default function Footer() {
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />
                 <a
-                  href="mailto:gdg@dsu.edu.in"
+                  href="mailto:gdgscdsu@gmail.com"
                   className="text-sm hover:text-white transition-colors"
                 >
                   gdgscdsu@gmail.com

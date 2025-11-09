@@ -58,7 +58,7 @@ export default function EventDetails() {
             <img
               src={event.image}
               alt={event.title}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-fit"
             />
             {/* <button
               onClick={() => (window.location.hash = "")}

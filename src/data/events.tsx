@@ -2,7 +2,7 @@ export const events = [
   {
     id: 0,
     title: "Cloud Study Jam",
-    date: "December 15, 2024",
+    date: "December 15, 2025",
     location: "DSU Campus",
     attendees: 120,
     image:
@@ -17,7 +17,7 @@ export const events = [
   {
     id: 1,
     title: "Android Development Workshop",
-    date: "November 28, 2024",
+    date: "November 28, 2025",
     location: "Innovation Lab",
     attendees: 85,
     image:
@@ -30,29 +30,30 @@ export const events = [
   },
   {
     id: 2,
-    title: "Web Development Bootcamp",
-    date: "November 10, 2024",
-    location: "DSU Campus",
+    title: "Baithak",
+    date: "Oct 30, 2025",
+    location: "DHA Suffa University, Ext, Karachi, 75500",
     attendees: 150,
     image:
-      "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800",
-    description: "Full-stack web development with modern frameworks",
+      "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.0_mul_h_sub_0.0_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/blob_BUaC3ip",
+    description:
+      "A vibrant community gathering fostering connections and collaboration",
     detailedDescription:
-      "Master full-stack web development in our intensive bootcamp covering the complete web development lifecycle. Learn React for building dynamic user interfaces, Node.js and Express for backend development, and MongoDB for database management. The bootcamp includes hands-on projects covering responsive design, RESTful APIs, authentication, state management with Redux, and deployment strategies. Participants completed real-world projects and gained the skills needed to build and deploy production-ready web applications. This event was a huge success with overwhelmingly positive feedback from attendees.",
+      "Baithak was an engaging community gathering designed to connect students with the organizing team, build meaningful relationships, and introduce them to the heart of our tech community. It wasn’t just an orientation — it was a warm, interactive session where attendees explored what makes our circle unique and vibrant. The event featured exciting activities including a Community Meet & Greet, where participants got to know the organizing team and the vision behind the initiative, and a Scavenger Hunt, which added a fun, high-energy twist that tested creativity, teamwork, and problem-solving skills. The vibe throughout the event was casual, interactive, and full of laughter, energy, and connection. Baithak truly lived up to its purpose of breaking the ice and building community through shared fun and engagement.",
     status: "Completed",
     color: "gray",
   },
   {
     id: 3,
-    title: "AI/ML Workshop",
-    date: "October 22, 2024",
-    location: "Tech Hub",
+    title: "Web Bootcamp (NextJS + Supabase)",
+    date: "Jun 26, 2025",
+    location: "Dha Suffa University, Ext, Karachi, 75500",
     attendees: 95,
     image:
-      "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://res.cloudinary.com/startup-grind/image/upload/c_scale,w_2560/c_crop,h_640,w_2560,y_0.0_mul_h_sub_0.0_mul_640/c_crop,h_640,w_2560/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/event_banners/Frame%201171274986_3FDxlVb.png",
     description: "Introduction to Machine Learning with TensorFlow",
     detailedDescription:
-      "Explore the fascinating world of Artificial Intelligence and Machine Learning in this comprehensive workshop. Using TensorFlow and Python, participants learned the fundamentals of neural networks, supervised and unsupervised learning, and deep learning concepts. The workshop covered practical applications including image classification, natural language processing, and predictive modeling. Through hands-on coding sessions and real-world datasets, attendees built and trained their own ML models. The workshop also addressed ethical considerations in AI and provided insights into the future of machine learning technologies.",
+      "We’re cooking up an unmissable Web Dev session where we dive headfirst into the ultimate tech power couple: Next.js (the brainy one with killer SEO) + 🔥 Supabase (the cool, open-source backend you wish you knew sooner) Get ready to build smarter, faster, and way cooler than you ever thought possible.",
     status: "Completed",
     color: "gray",
   },
