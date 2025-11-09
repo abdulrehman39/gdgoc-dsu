@@ -8,7 +8,7 @@ export default function Hero() {
           <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-700 px-4 py-2 rounded-full mb-6">
             <span className="w-2 h-2 bg-brand rounded-full animate-pulse"></span>
             <span className="text-sm font-medium text-brand-dark">
-              GDGOC x Dha Suffa University
+              GDGOC - Dha Suffa University
             </span>
           </div>
 
@@ -25,12 +25,16 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-16">
-            <button className="bg-brand hover:bg-brand-dark text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
-              Join Our Community
-            </button>
-            <button className="bg-white hover:bg-gray-50 text-brand-dark px-8 py-4 rounded-lg font-semibold transition-all border-2 border-gray-200 hover:border-brand">
-              View Events
-            </button>
+            <a href="https://linktr.ee/GDSC.DSU">
+              <button className="bg-brand hover:bg-brand-dark text-white px-8 py-4 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-xl">
+                Join Our Community
+              </button>
+            </a>
+            <a href="#events">
+              <button className="bg-white hover:bg-gray-50 text-brand-dark px-8 py-4 rounded-lg font-semibold transition-all border-2 border-gray-200 hover:border-brand">
+                View Events
+              </button>
+            </a>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">

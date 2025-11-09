@@ -1,11 +1,12 @@
 import {
   Mail,
   MapPin,
-  Phone,
+  //   Phone,
   Linkedin,
   Github,
-  Twitter,
+  //   Twitter,
   Instagram,
+  Facebook,
 } from "lucide-react";
 
 export default function Footer() {
@@ -30,29 +31,35 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/developer-student-club-dsu-powered-by-google-developers/"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
               >
                 <Linkedin size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.facebook.com/GoogleDeveloperStudentClubDHASuffaUniversity/"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
+              >
+                <Facebook size={18} />
+              </a>
+              <a
+                href="https://github.com/GDSCDSU/"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-colors"
               >
                 <Github size={18} />
               </a>
               <a
-                href="#"
-                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors"
-              >
-                <Twitter size={18} />
-              </a>
-              <a
-                href="#"
+                href="https://www.instagram.com/gdgoc.dsu/"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-pink-600 transition-colors"
               >
                 <Instagram size={18} />
               </a>
+              {/* <a
+                href="#"
+                className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-400 transition-colors"
+              >
+                <Twitter size={18} />
+              </a> */}
             </div>
           </div>
 
@@ -99,7 +106,7 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0" />
                 <span className="text-sm">
-                  Dayananda Sagar University, Bangalore, Karnataka
+                  Dha Suffa University, Karachi, Pakistan
                 </span>
               </li>
               <li className="flex items-center">
@@ -108,10 +115,10 @@ export default function Footer() {
                   href="mailto:gdg@dsu.edu.in"
                   className="text-sm hover:text-white transition-colors"
                 >
-                  gdg@dsu.edu.in
+                  gdgscdsu@gmail.com
                 </a>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Phone size={18} className="mr-2 flex-shrink-0" />
                 <a
                   href="tel:+919876543210"
@@ -119,7 +126,7 @@ export default function Footer() {
                 >
                   +91 98765 43210
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -127,7 +134,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-gray-400 mb-4 md:mb-0">
-              © 2024 GDG On Campus DSU. All rights reserved.
+              © 2025 GDGOC - DSU. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="hover:text-white transition-colors">
