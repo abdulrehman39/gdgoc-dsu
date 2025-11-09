@@ -32,8 +32,7 @@ export default function Team() {
     {
       name: "Sualeha Junaid",
       role: "Co-Lead Decor",
-      image:
-        "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_3,f_auto,g_face,h_130,q_auto:good,w_130/v1/gcs/platform-data-goog/avatars/sualeha_junaid.jpg",
+      image: "/profile-icon.png",
       linkedin: "#",
       github: "#",
       email: "#",
